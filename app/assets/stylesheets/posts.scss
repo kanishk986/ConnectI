@@ -1,0 +1,74 @@
+// Place all the styles related to the posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+#posts-home{
+	
+	display: flex;
+	justify-content: space-evenly;
+	padding-top: 25px;
+
+	.deewar-posts{
+		width: 50%;
+		border-right: 1px dashed #007effe0;
+		border-left: 1px dashed #007effe0;
+
+		.new-post-form{
+			display: flex;
+			justify-content: center;
+			form{
+			display: flex;
+				flex-direction: column;
+			}
+
+			
+		}
+
+		.posts-list{
+
+			.post-like-status {
+				a{
+					i{
+						font-size: 1.5rem;
+						color: green;
+					}
+				}
+				
+			}
+			
+		}
+background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6abCTqaXvwlKJCNq4tP9ZS2hiQeqZnW8S1f8_Jy9e6gXChD1F')
+	}
+
+	@media (min-width: 340px) and (max-width: 480px)and (orientation: portrait) {
+		.hide-small-screen{
+			display: none;
+		}
+
+		.deewar-posts{
+			width: 100%;
+		}
+	}
+
+
+
+
+
+     
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
